@@ -1,0 +1,40 @@
+< !DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Table</title><style>body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+</style></head><body><h1>Table in HTML</h1><table>< !-- head of the table --><thead><tr><th>Name</th><th>Role</th><th>Salary</th></tr></thead>< !-- body of the table --><tbody><tr><td>Prachi</td><td>Software Developer</td><td>50 Lakh</td></tr><tr><td>Rohan</td><td>Software Designer</td><td>10 Lakh</td></tr><tr><td>Roni</td><td>AI Engineer</td><td>100 Lakh</td></tr></tbody></table></body></html>

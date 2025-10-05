@@ -1,0 +1,74 @@
+<style>
+    /* General Reset and Font */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background: #1e1e2f;
+        color: #f0f0f0;
+        line-height: 1.6;
+    }
+
+    /* Header Styling */
+    header {
+        background: linear-gradient(90deg, #ff0055, #ff6600);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    header div:first-child {
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    header a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
+
+    header a:hover {
+        color: #ffd700;
+    }
+
+    /* Main Content Styling */
+    main {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    main div {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #ff3366;
+        font-weight: bold;
+    }
+
+    main p {
+        font-size: 1rem;
+        color: #ccc;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    /* Footer Styling */
+    footer {
+        background: #111;
+        color: #aaa;
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9rem;
+        margin-top: 40px;
+    }
+</style>

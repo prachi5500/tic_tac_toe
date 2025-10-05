@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms</title><link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <h1>forms in html</h1>
+    <form action="/submit.php"></form>
+    <div>
+        <label for="name">name</label>
+        <input id="name" type=" text" placeholder="enter name">
+    </div>
+    <div>
+        <label for="ph">phone</label>
+        <input id="ph" type="tel" placeholder="enter name" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="enter name" required>
+    </div>
+    <div>
+        <label for="pass">password</label>
+        <input id="pass" type="password" placeholder="enter name" required>
+    </div>
+    <div>
+        <label for="DOB">date</label>
+        <input id="DOB" type="date" placeholder="enter name" required>
+    </div>
+    <div>
+        <label for="grnder">gndr</label>
+        <select name="G" id="grndr" required>
+            <option value=""disabled selected>select gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+        </select>
+    </div>
+    <p>subscription</p>
+    <input id="basic" type="radio" name="subscription" value="basic">
+    <label for="basic">basic</label>
+    <input id="premium" type="radio" name="subscription" value="premium">
+    <label for="premium">premium</label>
+    <!-- <input id="vip" type="radio" name="subscription" value="vip"> -->
+    <label for="vip" ></label> <input id="vip" type="radio" name="subscription" value="vip">vip</label>
+     <div>
+        <input id="term" type="checkbox" required>
+        <label for="term">i agree to the term and condition</label>
+     </div>
+     <div>
+        <label for="comment">comment</label>
+        <textarea name="comment" placehoder="enter your comments" rows="4" >
+            
+        </textarea>
+     </div>
+     <div> 
+        <button type="submit" >submit
+        </button>
+     </div>
+</body>
+</html>
